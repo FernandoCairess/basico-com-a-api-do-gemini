@@ -5,4 +5,3 @@ env/
 # Arquivos de ambiente
 .env
 .env.*
-!.env.example
