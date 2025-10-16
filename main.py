@@ -7,7 +7,7 @@ load_dotenv() #
 CHAVE_API_KEY = os.getenv('GEMINI_API_KEY')
 
 g.configure(api_key=CHAVE_API_KEY)
-MODELO_ESCOLHIDO = 'gemini-1.5-flash'
+MODELO_ESCOLHIDO = 'gemini-2.5-flash'
 
 prompt_sistema = 'Liste apenas os nomes dos produtos, e ofereca uma breve descricao de cada um.'
 
